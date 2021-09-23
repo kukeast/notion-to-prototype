@@ -1,3 +1,49 @@
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  src: url('./constants/font/SpoqaHanSansNeo-Bold.woff');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  src: url('./constants/font/SpoqaHanSansNeo-Medium.woff');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  src: url('./constants/font/SpoqaHanSansNeo-Regular.woff');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'SpoqaHanSansNeo';
+  src: url('./constants/font/SpoqaHanSansNeo-Light.woff');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'SourceCodeProMedium';
+  src: url('./constants/font/SourceCodePro-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./constants/font/Inter-Black.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./constants/font/Inter-Bold.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('./constants/font/Inter-Medium.ttf');
+  font-weight: 300;
+}
+
+*{
+  font-family : 'SpoqaHanSansNeo';
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +51,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #111112;
+  background-image: url('./constants/image/background-pattern.png');
+  background-attachment: fixed;
+  background-position: 10px 10px;
+
 }
 
 code {
